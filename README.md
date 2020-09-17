@@ -1,3 +1,3 @@
 # Gaming-Website
 
-Just a simple website i made getting used to using bootstrap, css and javascript. Oh and using API's
+Just a simple website i made to get used to using Bootstrap, CSS, Javascript and API requests.
