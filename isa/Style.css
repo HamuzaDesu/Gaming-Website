@@ -1,0 +1,94 @@
+﻿body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.938);
+}
+
+.navbar {
+    background-color: transparent;
+    position: relative;
+    z-index: 4;
+}
+
+.nav-link {
+    font-size: 25px;
+}
+
+main {
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 8%;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.site-wrapper {
+    height: 1100px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.parallax {
+    background-image: url('back.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+#button {
+    display: inline-block;
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+    #button::after {
+        content: "\f077";
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2em;
+        line-height: 50px;
+        color: #fff;
+    }
+
+    #button:hover {
+        cursor: pointer;
+        background-color: #333;
+    }
+
+    #button:active {
+        background-color: #555;
+    }
+
+    #button.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+
+
+
+
+#button {
+    margin: 30px;
+}
+

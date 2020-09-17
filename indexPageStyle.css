@@ -1,0 +1,73 @@
+body{
+    background: rgba(0,0,0,0.9);
+    font-family: 'Roboto';
+}
+.specialElite{
+    font-family: 'Special Elite';   
+}
+.roboto{
+    font-family: 'Roboto';
+}
+.navbar {
+    background-color: rgba(0,0,0,0.5);
+
+    z-index: 1;
+}
+.carousel{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+}
+
+.navbar-brand{
+    font-size: 28px;
+}
+.nav-button{
+    font-size: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.card{
+    color: white;
+    background: rgba(0,0,0,0);
+    font-family: 'Roboto';
+    border: none;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.section-2{
+    background: rgba(0,0,0,1)
+}
+
+.section-3{
+    background: rgba(0,0,0,1);
+    margin: 0%;
+}
+.long-card{
+    background: rgba(0,0,0,1);
+    margin: 0%;
+}
+
+.section-4{
+    margin: 0%;
+}
+
+.parallax{
+    background-image: url('https://media.rawg.io/media/screenshots/2ab/2ab0b67e68b6ede6b19d80094b6f7f2a_qTSfS2g.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 2560px;
+    height: 1000px;
+}
+
+.section-6{
+    background: rgba(0,0,0,1)
+}
